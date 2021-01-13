@@ -1,0 +1,88 @@
+html {
+	scroll-behavior: smooth;
+}
+body
+{
+	background-color: white;
+	position: relative;
+}
+.btn-primary
+{
+	background-color:orangered;
+}
+/*.animate__animated{
+	opacity: 0;
+}
+.animate__animated.animate__animated{
+	opacity: 1;
+}*/
+
+/*footer*/
+#footer{
+     background: #071527;
+     color: #fff;
+}
+#Contact{
+	background-color: #f6f9fd; 
+}
+#Team{
+	background-color: #f6f9fd;
+}
+#CalltoAction{
+	background-color: #071527;
+	 color: #fff;
+}
+
+#Multi{
+	background: #05101e;
+	border-top: 4px solid orangered;
+}
+.card-columns .card:hover{
+	background-color: orangered;
+	color: white;
+}
+.ABOUTUS{
+	font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #0f2f57;	
+}
+.fab{
+	background-color: #071527;
+	color: white;
+	border-radius: 5px;
+	width: 12%;
+}
+.fab:hover{
+	background-color: orangered;
+}
+.fas{
+	background-color:orangered;
+	color: white;
+	border-radius: 5px;
+}
+.fas:hover{
+	background-color: white;
+	color: orangered;
+}
+
+.carousel-caption{
+	position: absolute;
+	right: auto;
+	width: 40%;
+	height: 525px;
+}
+
+.back-to-top {
+	display: none;
+	position: fixed;
+    bottom: 80px;
+    right: 16px;
+    z-index: 10;
+}
+
+#top:hover{
+	background-color: black;
+	color: orangered;
+}

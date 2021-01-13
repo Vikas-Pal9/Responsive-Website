@@ -1,0 +1,738 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- animate.css -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <!-- /fontawesome -->
+
+    <title>Bootstrap Practice</title>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbarSupportedContent">
+  <!--nav-->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light pr-2 pt-3 pb-3 shadow-lg" style="background-color: white;">
+    <div class="container">
+      <a class="navbar-brand" href="#"><span style="font-size: 30px; color: #0f2f57; text-transform: uppercase; font-weight: 650;"> Vikas Pal </span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item px-2">
+            <a class="nav-link" href="#carouselExampleCaptions">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item px-2">
+            <a class="nav-link" href="#About">About</a>
+        </li>
+        <li class="nav-item px-2">
+            <a class="nav-link" href="#Services">Services</a>
+        </li>
+        <li class="nav-item px-2">
+            <a class="nav-link" href="#Portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item px-2">
+            <a class="nav-link" href="#Team">Team</a>
+        </li>
+        <li class="nav-item dropdown px-2">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Drop Down 1</a>
+              <a class="dropdown-item" href="#">Drop Down 2</a>
+              <a class="dropdown-item" href="#">Drop Down 3</a>
+              <a class="dropdown-item" href="#">Drop Down 4</a>
+              <a class="dropdown-item" href="#">Drop Down 5</a>
+      </li>
+      <li class="nav-item px-2">
+        <a class="nav-link" href="#Contact">Contact</a>
+    </li>
+</ul>
+<button class="btn btn-primary mx-2" type="submit">Get Started</button>
+</div>
+</div>
+</nav>
+<!--/nav-->
+
+
+<!--Carousel-->
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active" style="background: #fff; border: 0; width: 12px; height: 12px; border-radius: 50px;"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1" style="background: #fff; border: 0; width: 12px; height: 12px; border-radius: 50px;"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2" style="background: #fff; border: 0; width: 12px; height: 12px; border-radius: 50px;"></li>
+</ol>
+<div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption text-left">
+        <h2 class="animate__animated animate__fadeInDown">Welcome to Multi</h2>
+        <p class="animate__animated animate__fadeInUp" style="font-size: 20px;">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p><br>
+        <button class="btn btn-primary px-4 py-2 animate__animated animate__fadeInUp" type="submit">Read More</button>
+    </div>
+</div>
+<div class="carousel-item">
+  <img src="images/2.jpg" class="d-block w-100" alt="...">
+  <div class="carousel-caption text-left">
+    <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
+    <p class="animate__animated animate__fadeInUp" style="font-size: 20px;">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p><br>
+    <button class="btn btn-primary px-4 py-2 animate__animated animate__fadeInUp" type="submit">Read More</button>
+    
+</div>
+</div>
+<div class="carousel-item">
+  <img src="images/3.jpg" class="d-block w-100" alt="...">
+  <div class="carousel-caption text-left">
+    <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
+    <p class="animate__animated animate__fadeInUp" style="font-size: 20px;">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p><br>
+    <button class="btn btn-primary px-4 py-2 animate__animated animate__fadeInUp" type="submit">Read More</button>
+    
+</div>
+</div>
+</div>
+<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+</a>
+</div>
+<!--/Carousel-->
+
+<!--about us-->
+
+<section id="About" class="About">
+
+    <div class="container pt-5 pb-5 animate__animated animate__fadeInUp">
+        <div class="row">
+            <h6>ABOUT US</h6>
+        </div>
+        <div class="row" style="text-transform: uppercase; font-family: sans-serif; color: #0f2f57; font-weight: 650;">
+            <h1>About us</h1>
+        </div> 
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pt-4" style="color: black;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+                <li class="pt-3">Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+                <li class="pt-2">Duis aute irure dolor in reprehenderit in voluptate velit</li>
+                <li class="pt-2">o laboris nisi ut aliquip ex ea commodo consequat</li>
+
+            </div>  
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-4" style="color: black;">
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
+                <button class="btn btn-primary mt-4" type="submit">Learn More</button>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/about us-->
+<!-- card -->
+<div class="container pt-5 pb-5">
+    <div class="row">
+      <div class="col-sm-3 p-0">
+        <div class="card text-center shadow-lg animate__animated animate__fadeInLeft" style="border: 0;">
+          <div class="card-body">
+            <h1 class="card-title">232</h1>
+            <p class="card-text">Happy Clients consequuntur quae qui deca rode</p>
+            <a href="#" class="card-link">Find out more>></a>
+        </div>    
+    </div>
+</div>
+<div class="col-sm-3 p-0">
+    <div class="card text-center shadow-lg animate__animated animate__fadeInLeft" style="border: 0; animation-delay: 0.3s;">
+      <div class="card-body">
+        <h1 class="card-title">521</h1>
+        <p class="card-text">Projects adipisci atque cum quia aut numquam delectus</p>
+        <a href="#" class="card-link">Find out more>></a>
+    </div>
+</div>
+</div>
+<div class="col-sm-3 p-0">
+    <div class="card text-center shadow-lg animate__animated animate__fadeInLeft" style="border: 0; animation-delay: 0.6s;">
+      <div class="card-body">
+        <h1 class="card-title">1,463</h1>
+        <p class="card-text">Hours Of Support aut commodi quaerat. Aliquam </p>
+        <a href="#" class="card-link">Find out more>></a>
+    </div>
+</div>
+</div>
+<div class="col-sm-3 p-0">
+    <div class="card text-center shadow-lg  animate__animated animate__fadeInLeft" style="border: 0; animation-delay: 0.6s;">
+      <div class="card-body">
+        <h1 class="card-title">15</h1>
+        <p class="card-text">Hard Workers rerum asperiores dolor molestiae </p>
+        <a href="#" class="card-link">Find out more>></a>
+    </div>
+</div>
+</div>
+</div>
+
+</div>
+<!--/Card-->
+
+<!--card1-->
+
+<div class="container-fluid pt-5 pb-5">
+    <div class="card mb-3 shadow">
+      <div class="row no-gutters">
+        <div class="col-md-5">
+          <img src="images/4.jpg" class="img-fluid animate__animated animate__fadeInLeft">
+      </div>
+      <div class="col-md-12 col-lg-7 col-sm-12 col-xs-12 animate__animated animate__fadeInRight">
+          <div class="card-body">
+            <h1 class="card-title">Eum ipsam laborum deleniti velit pariatur architecto</h1>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
+
+            <!--collapse-->
+
+            <div class="accordion" id="accordionExample">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      01 Non consectetur a erat nam at lectus urna duis?
+                  </h2>
+              </div>
+
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  02 Feugiat scelerisque varius morbi enim nunc?
+              </button>
+          </h2>
+      </div>
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        </div>
+    </div>
+</div>
+<div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+           03 Dolor sit amet consectetur adipiscing elit?
+       </button>
+   </h2>
+</div>
+<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+  <div class="card-body">
+    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+</div>
+</div>
+</div>
+</div>
+
+<!--/collapse-->
+
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<!--/card1-->
+
+<!--CHECK OUR SERVICES-->
+<section id="Services" class="Services">
+    <div class="container">
+        <div class="row">
+            <h6>SERVICES</h6> 
+        </div>
+        <div class="row" style="text-transform: uppercase; font-family: sans-serif; color: #0f2f57; font-weight: 650;">
+            <h1>CHECK OUR SERVICES</h1>
+        </div>
+
+        <div class="card-columns pt-5">
+         <div class="card p-3 text-center shadow animate__animated animate__fadeInLeft" style="border: 0; animation-delay: 0.9s;"> 
+         <i class="fas fa-basketball-ball p-2 fa-3x"></i><br> 
+            <h3>Lorem Ipsum</h3>
+            <blockquote class="blockquote mb-6 card-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          </blockquote>
+      </div>
+      <div class="card p-3 text-center shadow animate__animated animate__fadeInRight" style="border: 0; animation-delay: 0.3s;">
+        <i class="fas fa-file-alt p-2 fa-3x"></i><br>
+        <h3>Sed ut perspiciatis</h3>
+        <blockquote class="blockquote mb-6 card-body">
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+        </blockquote>
+     </div>
+     <div class="card p-3 text-center shadow animate__animated animate__fadeInLeft" style="border: 0; animation-delay: 0.6s;">
+        <i class="fas fa-tachometer-alt p-2 fa-3x"></i>
+        <h3>Magni Dolores</h3>
+        <blockquote class="blockquote mb-6 card-body">
+           <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+        </blockquote>
+    </div>
+    <div class="card p-3 text-center shadow animate__animated animate__fadeInRight" style="border: 0; animation-delay: 0.6s;">
+        <i class="fas fa-globe-americas p-2 fa-3x"></i>
+        <h3>Nemo Enim</h3>
+        <blockquote class="blockquote mb-6 card-body">
+         <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+        </blockquote>
+    </div>
+    <div class="card p-3 text-center shadow animate__animated animate__fadeInLeft" style="border: 0; animation-delay: 0.3s;">
+        <i class="fas fa-tv p-2 fa-3x"></i>
+       <h3>Dele cardoM</h3>
+       <blockquote class="blockquote mb-6 card-body">
+        <p>Quis consequatur saepe eligendi voluptatem consequatur dolor </p>
+       </blockquote>
+    </div>
+    <div class="card p-3 text-center shadow animate__animated animate__fadeInRight" style="border: 0; animation-delay: 0.9s;">
+        <i class="fas fa-torii-gate p-2 fa-3x"></i>
+       <h3>Divera don</h3>
+       <blockquote class="blockquote mb-6 card-body">
+          <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+       </blockquote>   
+</div>
+</div>
+</div>
+</section>
+
+<!--/CHECK OUR SERVICES-->
+
+<!--Call To ActioN-->
+
+<section id="CalltoAction" class="CalltoAction">
+    <div class="container my-4  pb-5 pt-5 animate__animated animate__fadeInUp">
+        <div class="row">
+            <div class="col text-center">
+                <h1>Call To Action</h1>
+            </div>
+        </div>
+        <div class="row my-4">
+            <div class="col text-center">
+                <h5>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h5>
+            </div>
+        </div>
+        <div class="row my-4">
+            <div class="col text-center">
+                <button class="btn btn-primary">Call to Action</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+<!--/Call To ActioN-->
+
+<!--Portfolio-->
+<section id="Portfolio" class="Portfolio">
+    <div class="container pt-5 pb-5">
+        <div class="row">
+            <h6>Portfolio</h6>
+        </div>
+        <div class="row" style="text-transform: uppercase; font-family: sans-serif; color: #0f2f57; font-weight: 650;">
+            <h1>Check our portfolio</h1>
+        </div>
+        <div class="row my-4">
+            <div class="col text-center">
+              <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">ALL</a></li>
+                <li class="list-inline-item"> <a href="#">APP</a></li>
+                <li class="list-inline-item"><a href="#">CARD</a></li>
+                <li class="list-inline-item"><a href="#">WEB</a></li>
+            </ul>    
+        </div>
+    </div>
+    <div class="row">
+        <div class="col animate__animated animate__fadeInLeft" style="animation-delay: 0.9s;">
+            <img src="images/P1.jpg">
+        </div>
+        <div class="col animate__animated animate__fadeInLeft" style="animation-delay: 0.6s;">
+            <img src="images/P2.jpg">
+        </div>
+        <div class="col animate__animated animate__fadeInLeft" style="animation-delay: 0.3s;">
+            <img src="images/P3.jpg">
+        </div>
+    </div>
+    <div class="row my-4">
+        <div class="col animate__animated animate__fadeInRight" style="animation-delay: 0.3s;">
+            <img src="images/P4.jpg">
+        </div>
+        <div class="col animate__animated animate__fadeInRight" style="animation-delay: 0.6s;">
+            <img src="images/P5.jpg">
+        </div>
+        <div class="col animate__animated animate__fadeInRight" style="animation-delay: 0.9s;">
+            <img src="images/P6.jpg">
+        </div>
+    </div>
+    <div class="row my-4 ">
+        <div class="col animate__animated animate__fadeInLeft" style="animation-delay: 0.9s;">
+            <img src="images/P7.jpg">
+        </div>
+        <div class="col animate__animated animate__fadeInLeft" style="animation-delay: 0.6s;">
+            <img src="images/P8.jpg">
+        </div>
+        <div class="col animate__animated animate__fadeInLeft" style="animation-delay: 0.3s;">
+            <img src="images/P9.jpg">
+        </div>
+    </div>
+</div>
+</section>
+<!--/Portfolio-->
+
+<!--CHeck our team-->
+<section id="Team" class="Team">
+    <div class="container pt-5 pb-5">
+        <div class="row">
+            <h6>TEAM</h6>
+        </div>
+        <div class="row" style="text-transform: uppercase; font-family: sans-serif; color: #0f2f57; font-weight: 650;">
+            <h1>Check Our Team</h1>
+        </div>
+        <div class="row my-4">
+            <div class="col animate__animated animate__fadeInUp">
+                <img src="images/T1.jpg" style="border-radius: 50%;">
+            </div>
+            <div class="col animate__animated animate__fadeInUp">
+                <img src="images/T2.jpg" style="border-radius: 50%;">
+            </div>
+            <div class="col animate__animated animate__fadeInUp">
+                <img src="images/T3.jpg" style="border-radius: 50%;">
+            </div>
+            <div class="col animate__animated animate__fadeInUp">
+                <img src="images/T4.jpg" style="border-radius: 50%;">
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<!--/CHeck our team-->
+
+
+
+<!--OUR COMPETING PRICES-->
+
+
+<div class="container pt-5 pb-5 ">
+    <div class="row">
+        <h6>PRICES</h6>
+    </div>
+    <div class="row" style="text-transform: uppercase; font-family: sans-serif; color: #0f2f57; font-weight: 650;">
+        <h1>OUR COMPETING PRICES</h1>
+    </div>
+    <div class="row my-4 text-center">
+        <div class="col">
+            <div class="card text-center pb-5 pt-5 shadow-lg" style="width: 21rem; border: 4px solid orangered;">
+                <div class="card-body">
+                   <h1 class="card-title">FREE</h1>
+                   <h1 class="card-title">$0</h1>
+                   <p class="card-text">per month</p>
+                   <ul class="text-left">
+                    <li>Web design</li>
+                    <li>Web development</li>
+                    <li>Product Management</li>
+                    <li class="text-decoration-line-through text-muted">Marketing</li>
+                    <li class="text-decoration-line-through text-muted">Graphic Design</li>
+                </ul>
+                <button class="btn btn-primary" type="submit">Get Started</button>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card text-center pb-5 pt-5 shadow-lg" style="width: 21rem; border: 4px solid orangered;">
+            <div class="card-body">
+               <h1 class="card-title">Business</h1>
+               <h1 class="card-title">$29</h1>
+               <p class="card-text">per month</p>
+               <ul class="text-left">
+                <li>Web design</li>
+                <li>Web development</li>
+                <li>Product Management</li>
+                <li>Marketing</li>
+                <li>Graphic Design</li>
+            </ul>
+            <button class="btn btn-primary" type="submit">Get Started</button>
+        </div>
+    </div>
+</div>
+<div class="col">
+    <div class="card text-center pb-5 pt-5 shadow-lg" style="width: 21rem; border: 4px solid orangered;">
+        <div class="card-body">
+           <h1 class="card-title">Developer</h1>
+           <h1 class="card-title">$99</h1>
+           <p class="card-text">per month</p>
+           <ul class="text-left">
+            <li>Web design</li>
+            <li>Web development</li>
+            <li>Product Management</li>
+            <li>Marketing</li>
+            <li>Graphic Design</li>
+        </ul>
+        <button class="btn btn-primary" type="submit">Get Started</button>
+    </div>
+</div> 
+</div>       
+</div>
+</div>    
+<!--/OUR COMPETING PRICES-->
+
+<!--FAQ-->
+<hr>
+<div class="container">
+    <div class="row">
+        <h6>FAQ</h6>
+    </div>
+    <div class="row" style="text-transform: uppercase; font-family: sans-serif; color: #0f2f57; font-weight: 650;">
+        <h1>Frequently Asked Questions</h1>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">Non consectetur a erat nam at lectus urna duis?</div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</div>
+        
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim.</div>
+        
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?</div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus.</div>
+        
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">Aperiam itaque sit optio et deleniti eos nihil quidem cumque. Voluptas dolorum accusantium sunt sit enim. Provident consequuntur quam aut reiciendis qui rerum dolorem sit odio. Repellat assumenda soluta sunt pariatur error doloribus fuga.</div>
+        
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</div>
+        
+    </div>
+    <hr>
+</div>
+<!--/FAQ-->
+
+<!--Contact Us-->
+
+<section id="Contact" class="Contact">
+    <div class="container mt-5 pb-5">
+        <div class="row">
+            <h6>CONTACT US</h6>
+        </div>
+        <div class="row" style="text-transform: uppercase; font-family: sans-serif; color: #0f2f57;">
+            <h1>CONTACT US</h1>
+        </div>
+        <div class="row">
+            <div class="col">
+             <div class="row my-4">
+                <div class="col">
+                 <div class="card text-center shadow" style="width: 33rem;">
+                  <div class="card-body">
+                   <h4>OUR ADDRESS</h4><br>
+                   New York City
+               </div>
+           </div>
+       </div>
+   </div>
+   <div class="row">
+     <div class="col">
+       <div class="card text-center shadow" style="width: 15rem;">
+          <div class="card-body">
+             <h4>Email us</h4><br>
+             <p>info@example.com</p>
+         </div>
+     </div>
+ </div>
+ <div class="col">
+   <div class="card text-center shadow" style="width: 15rem;">
+      <div class="card-body">
+         <h4> Call Us</h4><br>
+         <p>+1 5589 55488 55</p>
+     </div>
+ </div> 
+</div>
+</div>
+</div>
+<div class="col shadow" style="background-color: white;">
+    <div class="row my-4">
+       <div class="col">
+          <input type="text" class="form-control" placeholder="Your name" aria-label="Your name">
+      </div>
+      <div class="col">
+          <input type="Email" class="form-control" placeholder="Email" aria-label="Email">
+      </div>
+  </div>
+  <div class="row my-4">
+    <div class="col">
+      <input type="text" placeholder="Subject" class="form-control">
+  </div>  
+</div>
+<div class="row my-4">
+    <div class="col">
+      <textarea class="form-control" placeholder="Messages" rows="3"></textarea>
+  </div>          
+</div>
+<div class="row my-4">
+    <div class="col text-center">
+      <button class="btn btn-outline-primary">Send Messages</button>
+  </div>
+</div>
+</div>    
+</div>   
+</div>
+</div>
+</section>
+<!--/Contact Us-->
+<!-- FOOTER -->
+<footer id="footer">
+    <div class="container pb-5 pt-5">
+       <div class="row">
+           <div class="col-lg-4">
+               <div id="Multi" class="card text-center" style="width: 21rem;">
+                  <div class="card-body">
+                    <h3>Multi</h3><br>
+                    <p>Qui repudiandae et eum dolores alias sed ea. Qui suscipit veniam excepturi quod.</p>
+                    <p>A108 Adam Street NY 535022, USA</p>
+                    <p>Phone: +1 5589 55488 55</p>
+                    <p>Email: info@example.com</p>
+                    <div class="row"> 
+                        <div class="col text-center">
+                            <i class="fab fa-twitter p-2 fa-md"><a href="#"></a></i>
+                            <i class="fab fa-facebook-f p-2 fa-md"><a href="#"></a></i>
+                            <i class="fab fa-instagram p-2 fa-md"><a href="#"></a></i>
+                            <i class="fab fa-skype p-2 fa-md"><a href="#"></a></i>
+                            <i class="fab fa-linkedin-in p-2 fa-md"><a href="#"></a></i> 
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <div class="col-lg-2">
+           <h5 class="text-center">Useful links</h5>
+           <ul>
+               <li class="mt-2">Home</li>
+               <li class="mt-2">About us</li>
+               <li class="mt-2">Services</li>
+               <li class="mt-2">Terms of Services</li>
+               <li class="mt-2">Privacy policy</li>
+           </ul>
+       </div>
+       <div class="col-lg-2">
+           <h5 class="text-center">Our Services</h5>
+           <ul>
+               <li class="mt-2">Web design</li>
+               <li class="mt-2">Web development</li>
+               <li class="mt-2">Product Management</li>
+               <li class="mt-2">Marketing</li>
+               <li class="mt-2">Graphic Design</li>
+           </ul>
+       </div>
+       <div class="col-lg-4">
+           <div class="row">
+               <h5>Our Newsletter</h5>
+           </div>
+           <div class="row mt-3">
+               <h6>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</h6>
+           </div>
+           <div class="row">
+               <div class="input-group mt-3">
+                 <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                 <button class="btn btn-outline-primary" type="button" id="button-addon2">Subscribe</button>
+             </div>
+
+         </div>
+     </div>   
+ </div>   
+</div>
+<!-- /FOOTER -->
+<div class="container pt-3 pb-3">
+    <hr style="background-color: #fff;">
+    <div class="row">
+        <div class="col text-center">
+            © Copyright Multi. All Rights Reserved<br>
+
+            Designed by <span style="color: orangered;">VikasPal</span>
+        </div>
+    </div>
+</div>
+</footer>
+
+<!-- Back to Top button -->
+<a href="#carouselExampleCaptions" class="back-to-top" id="top">
+  <i class="fas fa-angle-up p-3" style="border-radius: 10px;"></i>
+</a>
+
+
+
+
+<!-- SCRIPT START -->
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<!-- Scrollspy -->
+<script>$('body').scrollspy({ target: '#navbarSupportedContent', offset: 100 })</script>
+<!-- waypoints -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous"></script>
+
+
+<!-- <script>
+
+    $(document).ready(function(){
+
+        $('.animate__animated').waypoint(function(direction){
+            $('.animate__animated').addClass('animate__animated')
+        },{
+            offset: 50%
+        })
+
+</script>
+ -->
+
+
+<!-- back to top button script -->
+<script>
+  var mybutton = document.getElementById("top");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+</script>
+
+<!-- /SCRIPT END -->
+
+</body>
+</html>
